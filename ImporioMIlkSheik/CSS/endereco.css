@@ -1,0 +1,82 @@
+@charset "UTF=8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    ---cor0: #ffff;
+    ---cor1: #3c0d4d;
+    ---cor2: #58007a;
+    ---cor3: #830589;
+    ---cor4: rgb(236, 236, 4);
+
+
+}
+.cadastro{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(---cor1);
+}
+
+.boa_vidas{
+    display: flex;
+    width: 700px;
+    height: 600px;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    color: var(---cor0);
+}
+
+.cadastro_endereco{
+    width: 500px;
+    height: 650px;
+    background-color: var(---cor3);
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(2, 2, 2, 0.664);
+}
+.inputs{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+div{
+    margin: 20px;
+}
+.cadastro_endereco h1{
+    text-align: center;
+    margin: 25px;
+    color: var(---cor4);
+    border-bottom: 1px solid var(---cor4);
+}
+.inputs label{
+    color: var(---cor0);
+}
+.inputs input{
+    padding: 5px;
+    margin: 2px;
+    border: none;
+    width: 100%;
+    border-radius: 8px;
+}
+.complemento input{
+    border-radius:0;
+    height: 50px;
+}
+.btn{
+    width: 75px;
+    height: 25px;
+    margin-left: 45%;
+    border-radius: 8px;
+    border:none;
+}
+.btn:hover{
+    background-color:var(---cor2);
+    cursor: pointer;
+    color: var(---cor0);
+}

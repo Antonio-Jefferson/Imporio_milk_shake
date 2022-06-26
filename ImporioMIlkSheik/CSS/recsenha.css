@@ -1,0 +1,75 @@
+@charset "UTF=8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Fira+Sans:wght@900&family=Roboto:wght@100&display=swap');
+:root{
+    ---cor0: #ffff;
+    ---cor1: #3c0d4d;
+    ---cor2: #58007a;
+    ---cor3: #830589;
+    ---cor4: rgb(236, 236, 4);
+}
+body{
+    background-color: var(---cor1);
+}
+.conteiner{
+    width: 100vw;
+    height: 100vh;
+}
+.conteiner h1{
+    font-family: 'Cedarville Cursive', cursive;
+    padding-top: 60px;
+    text-align: center;
+    color: var(---cor0);
+    font-size: 36pt;
+}
+#text{
+    padding: 20px;
+    text-align: center;
+    color: var(---cor4);
+    font-size: 24pt;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.recuperar{
+    display: flex;
+    width: 500px;
+    height: 250px;
+    background-color: var(---cor3);
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(2, 2, 2, 0.664);
+}
+label{
+    color: var(---cor0);
+}
+div{
+    display: flex;
+    flex-direction: column; 
+}
+input{
+    width:350px ;
+    padding: 2px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+p{
+    color: var(---cor0);
+    padding: 5px;
+    margin: 8px;
+}
+.btn{
+    width: 60px;
+    height: 25px;
+    border-radius: 8px;
+    border:none;
+}
+.btn:hover{
+    background-color:var(---cor2);
+    cursor: pointer;
+    color: var(---cor0);
+}
